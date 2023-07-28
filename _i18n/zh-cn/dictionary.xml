@@ -1191,7 +1191,6 @@
   <block id="af7c4c7bd30238dcb53e639cf7a50996" category="cell">JSON 字符串，其中包含创建资源的用户 ID 的 UIDv4 标识符。如果资源是由内部系统组件创建的，并且没有与创建实体关联的 UUID ，则使用 * 空 * UUID 。</block>
   <block id="6cb8b958a36383ed1b7bacc626d0a5dd" category="paragraph-title">资源状态</block>
   <block id="b7aa38141b9dd3f7e78cd09e7f60ce0c" category="paragraph">选定资源A<block ref="9ed39e2ea931586b6a985a6942ef573e" prefix=" " category="inline-code"></block> 用于编排生命周期过渡和控制访问的值。</block>
-  <block id="1045f2798351223896fdab281a8307eb" category="sidebar">Astra Control Automation 文档</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">早期版本</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概述</block>
@@ -1231,4 +1230,5 @@
   <block id="b99e07f4bea810f88b69ecfe1784ab28" category="sidebar">列出云</block>
   <block id="b65e59022e022b723c1c1fbb73cd0092" category="sidebar">列出分段</block>
   <block id="157ecd713825d83c3595df6b4c0c11af" category="sidebar">访问参考文档</block>
+  <block id="8f5acd94867d6ae4b479db02c3a9b834" category="sidebar">Astra Control Automation 23.04文档</block>
 </blocks>
