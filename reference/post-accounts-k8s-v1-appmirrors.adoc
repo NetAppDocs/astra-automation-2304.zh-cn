@@ -7,6 +7,7 @@ summary: 创建新的 AppMirror 资源
 ---
 = 创建新的 AppMirror 资源
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/accounts/{account_id}/k8s/v1/appMirrors`#
@@ -15,6 +16,7 @@ summary: 创建新的 AppMirror 资源
 
 
 
+[[parameters]]
 == 参数
 
 [cols="5*"]
@@ -31,6 +33,7 @@ summary: 创建新的 AppMirror 资源
 |===
 
 
+[[request-body]]
 == 请求正文
 
 指示要创建的 AppMirror API 资源的所需值。
@@ -123,6 +126,7 @@ summary: 创建新的 AppMirror 资源
 ====
 
 
+[[response]]
 == 响应
 
 [source]
@@ -442,6 +446,7 @@ Status: 201, Returns the newly created appMirror resource in the JSON response b
 ====
 
 
+[[response]]
 == 响应
 
 [source]
@@ -487,6 +492,7 @@ Status: 401, Unauthorized
 ====
 
 
+[[response]]
 == 响应
 
 [source]
@@ -537,6 +543,7 @@ Status: 400, Bad request
 ====
 
 
+[[response]]
 == 响应
 
 [source]
@@ -582,6 +589,7 @@ Status: 409, Conflict
 ====
 
 
+[[response]]
 == 响应
 
 [source]
@@ -627,6 +635,7 @@ Status: 403, Forbidden
 ====
 
 
+[[error]]
 == 错误
 
 [source]
@@ -672,11 +681,13 @@ Status: 404, Not found
 ====
 
 
+[[definitions]]
 == 定义
 
 .查看定义
 [%collapsible]
 ====
+[[namespaceMapping]]
 [role="api-collapsible-fifth-title"]
 namespaceMapping
 
@@ -702,6 +713,7 @@ namespaceMapping
 
 
 |===
+[[storageClasses]]
 [role="api-collapsible-fifth-title"]
 storageClasses
 
@@ -726,6 +738,7 @@ storageClasses
 
 
 |===
+[[type_astra_label]]
 [role="api-collapsible-fifth-title"]
 类型 Astra 标签
 
@@ -741,6 +754,7 @@ storageClasses
 | value | string | True  a| 
 
 |===
+[[type_astra_metadata_update]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadata_update
 
@@ -773,6 +787,7 @@ type_astra_metadata_update
 | modifiedBy | string | False  a| 
 
 |===
+[[type_astra_stateTransition]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateTransition
 
@@ -788,6 +803,7 @@ type_astra_stateTransition
 | to | 数组[string] | True  a| 
 
 |===
+[[type_astra_stateDetail]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateDetail
 
@@ -807,6 +823,7 @@ type_astra_stateDetail
 | 详细信息 | string | True  a| 
 
 |===
+[[invalidParams]]
 [role="api-collapsible-fifth-title"]
 invalidParams
 
@@ -824,6 +841,7 @@ invalidParams
 查询参数无效的原因
 
 |===
+[[invalidFields]]
 [role="api-collapsible-fifth-title"]
 invalidFields
 

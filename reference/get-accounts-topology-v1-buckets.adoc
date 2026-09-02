@@ -7,6 +7,7 @@ summary: 列出所有存储桶
 ---
 = 列出所有存储桶
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/accounts/{account_id}/topology/v1/buckets`#
@@ -15,6 +16,7 @@ summary: 列出所有存储桶
 
 
 
+[[parameters]]
 == 参数
 
 [cols="5*"]
@@ -31,6 +33,7 @@ summary: 列出所有存储桶
 |===
 
 
+[[response]]
 == 响应
 
 [source]
@@ -80,6 +83,7 @@ Status: 200, Returns a JSON array of all matching resources in the collection. I
 ====
 
 
+[[response]]
 == 响应
 
 [source]
@@ -125,6 +129,7 @@ Status: 401, Unauthorized
 ====
 
 
+[[response]]
 == 响应
 
 [source]
@@ -175,6 +180,7 @@ Status: 400, Bad request
 ====
 
 
+[[response]]
 == 响应
 
 [source]
@@ -220,6 +226,7 @@ Status: 403, Forbidden
 ====
 
 
+[[error]]
 == 错误
 
 [source]
@@ -265,11 +272,13 @@ Status: 404, Not found
 ====
 
 
+[[definitions]]
 == 定义
 
 .查看定义
 [%collapsible]
 ====
+[[type_astra_stateDetail]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateDetail
 
@@ -289,6 +298,7 @@ type_astra_stateDetail
 | 详细信息 | string | True  a| 
 
 |===
+[[s3]]
 [role="api-collapsible-fifth-title"]
 s3
 
@@ -316,6 +326,7 @@ s3
 
 
 |===
+[[gcp]]
 [role="api-collapsible-fifth-title"]
 gcp
 
@@ -334,6 +345,7 @@ gcp
 
 
 |===
+[[azure]]
 [role="api-collapsible-fifth-title"]
 azure
 
@@ -361,6 +373,7 @@ azure
 
 
 |===
+[[bucketParameters]]
 [role="api-collapsible-fifth-title"]
 bucketParameters
 
@@ -385,6 +398,7 @@ bucketParameters
 提供 Azure 协议参数的 JSON 对象。
 
 |===
+[[type_astra_label]]
 [role="api-collapsible-fifth-title"]
 类型 Astra 标签
 
@@ -400,6 +414,7 @@ bucketParameters
 | value | string | True  a| 
 
 |===
+[[type_astra_metadata_update]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadata_update
 
@@ -432,6 +447,7 @@ type_astra_metadata_update
 | modifiedBy | string | False  a| 
 
 |===
+[[bucket_1_2_get_response_body]]
 [role="api-collapsible-fifth-title"]
 bucket_1.2_get_response_body
 
@@ -528,6 +544,7 @@ JSON 字符串，表示可用于访问存储桶的存储桶协议。定义的值
 
 
 |===
+[[type_astra_metadata_list]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadata_list
 
@@ -563,6 +580,7 @@ type_astra_metadata_list
 | modifiedBy | string | False  a| 
 
 |===
+[[invalidParams]]
 [role="api-collapsible-fifth-title"]
 invalidParams
 
