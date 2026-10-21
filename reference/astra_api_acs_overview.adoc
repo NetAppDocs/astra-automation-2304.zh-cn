@@ -2,7 +2,7 @@
 sidebar: sidebar 
 api: true 
 explorer: false 
-permalink: 'reference/astra_api_(acs)_overview.html' 
+permalink: reference/astra_api_acs_overview.html 
 summary: 'Astra API (ACS) 概述' 
 ---
 = Astra API (ACS) 概述

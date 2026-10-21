@@ -127,7 +127,7 @@ summary: 为组中的用户创建新角色绑定
 
 * 
 +
-= 允许访问任何云中任何集群中标记为 "dev" 的所有命名空间及其下的所有内容："roleConstraints"：[ "namespaces:kubernetesLabels='http://dev.example.com/appname=dev["dev.example.com/appname=dev'.*"]" ]
+= 允许访问任何云中任何集群中标记为 "dev" 的所有命名空间及其下的所有内容："roleConstraints": [ "namespaces:kubernetesLabels='dev.example.com/appname=dev'.*"]
 
 * 
 +
@@ -270,7 +270,7 @@ Status: 201, Returns the newly created roleBinding resource in the JSON response
 
 * 
 +
-= 允许访问任何云中任何集群中标记为 "dev" 的所有命名空间及其下的所有内容："roleConstraints"：[ "namespaces:kubernetesLabels='http://dev.example.com/appname=dev["dev.example.com/appname=dev'.*"]" ]
+= 允许访问任何云中任何集群中标记为 "dev" 的所有命名空间及其下的所有内容："roleConstraints": [ "namespaces:kubernetesLabels='dev.example.com/appname=dev'.*"]
 
 * 
 +
